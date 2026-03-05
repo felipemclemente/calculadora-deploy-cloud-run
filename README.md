@@ -17,6 +17,7 @@ Antes de executar qualquer deploy, é necessário autenticar no Google Cloud:
 
 ```bash
 gcloud auth login
+```
 
 ## Deploy API
 
@@ -24,6 +25,7 @@ Execute o script informando a versão da imagem.
 
 ```bash
 ./deploy-api.sh [version]
+```
 
 ## Deploy Front
 
@@ -31,3 +33,4 @@ Execute o script informando a versão da imagem.
 
 ```bash
 ./deploy-front.sh [version]
+```
