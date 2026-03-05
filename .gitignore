@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# logs
+*.log
+logs/
+
+# temp
+tmp/
+temp/
+
+# environment variables
+.env
+.env.*
+
+# editor
+.vscode/
+.idea/
+
+# shell history / backups
+*.swp
+*.swo
+*~
+
+# credentials (nunca subir)
+*.json
+*.key
+*.pem
+serviceAccountKey*
